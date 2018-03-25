@@ -31,7 +31,7 @@ public class HelloImplementation implements HelloApi {
 	public String insertData(List<Student> studentList) {
 		if (studentList != null) {
 			studentDao.save(studentList);
-			return "successfully inserted";
+			return "successfully inserted and edited from github";
 		} else {
 			return "list is  empty";
 		}
